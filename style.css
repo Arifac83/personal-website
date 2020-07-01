@@ -1,0 +1,126 @@
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;    
+}
+h1{
+    font-size: 50px;
+    margin-top: 0px;
+}
+h2{
+    font-size: 40px;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+p{
+    color: dimgray;
+    margin-bottom: 50px;
+}
+.name-highlight{
+    color:#EC4C7A;
+}
+.highlight1{
+    color: #202428);
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#EC5298,#ED4B72);    
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width:100%;
+}
+
+
+section{
+    height: 600px;
+}
+
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-size: cover;
+}
+.biography-area{
+    background-image: url("images/biography-bg.png");
+    background-size: cover;
+}
+.work-area {
+    background-image: url("images/latest-work-bg.png");
+    background-size: cover;
+  }
+  .work-area h2{
+    text-align: center;
+    margin-bottom: 100px;
+    
+  }
+  .single-work {
+      width: 25%;
+      float: left;
+      margin-left: 6%;
+      padding-left: 2%;
+    }
+  
+    .single-work img{
+      width: 100%;
+      
+    }
+  
+  .client-area {
+    background-image: url("images/client-bg.png");
+    background-size: cover;
+  }
+  .client-area h2{
+    color:#25282C;
+    text-align: center;
+    margin-bottom: 100px;
+    
+  }
+  .client-area h3{
+     color:#34373B; 
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    
+  }
+  .client-area h4{
+    color:#969696;  
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    
+  }
+  .client-area p{
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+.contact{
+    width: 600px;
+    height: 150px;
+    background-color: #EC4B75;
+    margin-left: 28%;
+    border-radius: 8px;
+}
+.contact p{
+    padding-top: 40px;
+    color: white;
+}
+.contact h3{
+    color: white;
+}
+footer p{
+    text-align: center;
+    font-size: 15px;    
+}
+
