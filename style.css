@@ -1,4 +1,4 @@
-
+/* Here Common Code is starting */
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;    
@@ -16,10 +16,15 @@ h2{
 p{
     color: dimgray;
     margin-bottom: 50px;
+    text-align: center;
+}
+.text-left{
+    text-align: left;
 }
 .name-highlight{
     color:#EC4C7A;
 }
+
 .highlight1{
     color: #202428);
 }
@@ -47,60 +52,155 @@ section{
     height: 600px;
 }
 
+/* Here Common Code is endting */
+    ---------------------
+
+/* Here top area is starting.*/
+
 .top-banner{
     background-image: url("images/header-bg.png");
     background-size: cover;
 }
+
+/* Here top area is ending.*/
+
+        ---------------------
+
+/* Here biography area is starting.*/
+
 .biography-area{
     background-image: url("images/biography-bg.png");
     background-size: cover;
 }
+/* Here biography area is ending.*/
+        ---------------------
+/* Here work area is starting.*/
+
 .work-area {
     background-image: url("images/latest-work-bg.png");
     background-size: cover;
   }
-  .work-area h2{
+.work-area h2{
     text-align: center;
     margin-bottom: 100px;
     
   }
-  .single-work {
+.single-work {
       width: 25%;
       float: left;
       margin-left: 6%;
       padding-left: 2%;
     }
   
-    .single-work img{
+.single-work img{
       width: 100%;
       
     }
-  
-  .client-area {
+ 
+/* Here work area is ending.*/
+
+        ---------------------
+
+/* Here expreience area is starting.*/  
+
+.experience-area{
+        background-image:url("images/exp-bg.png");
+        background-repeat:no-repeat;
+        background-position: left;
+    }
+    
+ .experience-h2{
+        text-align:center;
+        margin-bottom:20px;
+    }
+ .single-experience{
+        box-shadow: 10px 10px 40px gray;
+        border-radius: 5px;
+        height: 60%%;
+    }  
+ .single-experienc h2{
+        padding-top: 30px;
+       
+    }
+   
+#full-stack{
+        border-left: 7px solid;
+        border-image: linear-gradient(180deg, lightsalmon, tomato);
+        border-image-slice: 1;
+    }
+
+#full-stack p{
+        padding-bottom: 20px;
+    }
+#junior-web{
+        border-left: 7px solid;
+        border-image: linear-gradient(180deg, blue, cyan);
+        border-image-slice: 1;
+    }
+
+   
+
+       .skill-progress{
+        margin-top: 10%;
+    }
+    .skill-progress h3{
+        margin-bottom: 5px;
+        margin-left: 25%;
+    }
+    .container{
+        width: 50%;
+        background-color: #EC4C7A;
+        margin-left: 25%;
+        border-radius: 5px;
+    }
+    .skills{
+        text-align: right;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        border-radius: 5px;
+    }
+    .html{
+        width: 90%;
+        background-color: #a39f9f;
+    }
+    .css{
+        width: 95%;
+        background-color: #a39f9f;
+    }
+    .php{
+        width: 80%;
+        background-color: #a39f9f;        
+    }
+  /* Here expreienc area is ending.*/ 
+    --------------   
+/* Here client area is starting.*/   
+    
+.client-area {
     background-image: url("images/client-bg.png");
     background-size: cover;
   }
-  .client-area h2{
+.client-area h2{
     color:#25282C;
     text-align: center;
     margin-bottom: 100px;
     
   }
-  .client-area h3{
+ .client-area h3{
      color:#34373B; 
     text-align: center;
     margin-top: 0px;
     margin-bottom: 5px;
     
   }
-  .client-area h4{
+.client-area h4{
     color:#969696;  
     text-align: center;
     margin-top: 0px;
     margin-bottom: 50px;
     
   }
-  .client-area p{
+.client-area p{
     text-align: center;
     margin-bottom: 8px;
   }
@@ -111,16 +211,24 @@ section{
     background-color: #EC4B75;
     margin-left: 28%;
     border-radius: 8px;
+    margin-bottom: 40px;
 }
 .contact p{
     padding-top: 40px;
     color: white;
+    
 }
 .contact h3{
     color: white;
 }
-footer p{
-    text-align: center;
+
+/* Here client area is ending.*/
+    ---------------------
+/* Here footer area is starting.*/
+footer{   
+    text-align:center !important;
     font-size: 15px;    
 }
 
+/* Here footer area is ending.*/
+    ---------------------
